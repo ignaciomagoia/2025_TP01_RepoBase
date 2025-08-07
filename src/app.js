@@ -4,3 +4,10 @@ function saludar() {
 }
 
 saludar();
+
+function saludarConNombre(nombre) {
+    console.log(`Hola, ${nombre}`);
+}
+
+saludar();
+saludarConNombre("Ignacio");
