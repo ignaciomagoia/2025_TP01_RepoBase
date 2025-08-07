@@ -9,7 +9,6 @@ Configuré mi identidad en Git con:
 git config --global user.name "Ignacio Magoia"
 git config --global user.email "ignaciomagoiia@hotmail.com"
 
-
 ## 2. Desarrollo de nueva funcionalidad
 
 Para desarrollar una nueva funcionalidad, cree una rama llamada `feature/saludo-personalizado`
@@ -28,10 +27,10 @@ git checkout -b feature/saludo-personalizado //Para crear la rama apartada del m
 git status //Para ver el estado de los cambios
 git add src/app.js //Prepara los cambios
 git commit -m "feat: agregar función saludarConNombre(nombre)" //Sube los cambios
-git commit -m "feat: agregar función obtenerFechaActual()"     //Sube los cambios
+git commit -m "feat: agregar función obtenerFechaActual()" //Sube los cambios
 
 ##3. Corrección de error (hotfix)
-Creé la rama hotfix/fix-console-semicolon para corregir un error en la función saludar. 
+Creé la rama hotfix/fix-console-semicolon para corregir un error en la función saludar.
 Hice commit del arreglo en esa rama.
 Luego integré el fix a la rama principal main mediante un merge y subí los cambios al repositorio remoto.
 Después, para que mi rama de desarrollo feature/saludo-personalizado también tuviera el fix, hice merge de main a esa rama y la subí al remoto.
@@ -58,10 +57,10 @@ Esto permitió revisar los cambios antes de fusionarlos.
 
 ## 5. Versión etiquetada (tag v1.0)
 
-Creé el tag `v1.0` en la rama principal `main` para marcar una versión estable que incluye 
+Creé el tag `v1.0` en la rama principal `main` para marcar una versión estable que incluye
 la funcionalidad desarrollada y la corrección del error.
 
-comandos utilizados: 
+comandos utilizados:
 
 git checkout main
 git pull origin main
