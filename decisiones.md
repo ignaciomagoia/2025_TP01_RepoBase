@@ -55,6 +55,8 @@ git push origin feature/saludo-personalizado
 Para integrar los cambios de la rama `feature/saludo-personalizado` a `main`, realicé un Pull Request en GitHub.
 Esto permitió revisar los cambios antes de fusionarlos.
 
+_Se simuló un Pull Request desde GitHub utilizando la opción "Compare & Pull Request", describiendo el cambio. Luego se hizo el merge manualmente desde el entorno local._
+
 ## 5. Versión etiquetada (tag v1.0)
 
 Creé el tag `v1.0` en la rama principal `main` para marcar una versión estable que incluye
